@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Win\DisplayWin.h">
+      <Filter>Win</Filter>
+    </ClInclude>
+    <ClInclude Include="Win\EngineWin.h">
+      <Filter>Win</Filter>
+    </ClInclude>
+    <ClInclude Include="Private\Memory.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Private\Placeholder.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Private\Platform.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Private\Dx11\CommonDx11.h">
+      <Filter>Private\Dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="Private\Dx11\DisplayDx11.h">
+      <Filter>Private\Dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="Private\Dx11\EngineDx11.h">
+      <Filter>Private\Dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="Private\Dx11\TextureDx11.h">
+      <Filter>Private\Dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="Allocator.h" />
+    <ClInclude Include="Display.h" />
+    <ClInclude Include="Engine.h" />
+    <ClInclude Include="Render.h" />
+    <ClInclude Include="Stage.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="Util.h" />
+    <ClInclude Include="Private\Hash.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Private\RenderCore.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Private\Dx11\RenderDx11.h">
+      <Filter>Private\Dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="Private\Pool.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Win">
+      <UniqueIdentifier>{08c3bca9-78eb-498f-883f-13dea8526ae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private">
+      <UniqueIdentifier>{7080262e-3ac1-4b31-80ed-a706ca9c7851}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\Dx11">
+      <UniqueIdentifier>{98e02d35-00fe-4487-bafb-21801d3ff01c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Private\Dx11\DisplayDx11.cpp">
+      <Filter>Private\Dx11</Filter>
+    </ClCompile>
+    <ClCompile Include="Private\Dx11\EngineDx11.cpp">
+      <Filter>Private\Dx11</Filter>
+    </ClCompile>
+    <ClCompile Include="Private\Dx11\TextureDx11.cpp">
+      <Filter>Private\Dx11</Filter>
+    </ClCompile>
+    <ClCompile Include="Private\Memory.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Private\RenderCore.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Private\Dx11\RenderDx11.cpp">
+      <Filter>Private\Dx11</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
